@@ -12,29 +12,29 @@
 // const errorCode = 4 geeft "Geen druk" in de terminal
 // etc.
 
-const errorCode = '4';
-
-switch (errorCode) {
-    case '0':
-    console.log("Geen watertoevoer");
-        break;
-
-    case '1':
-        console.log("Temperatuur te laag");
-        break;
-
-    case '2':
-        console.log("Koffiebonen op")
-        break;
-
-    case '3':
-        console.log("Afvalbak vol");
-        break;
-
-    case '4':
-        console.log("Geen druk");
-        break;
-}
+// const errorCode = '4';
+//
+// switch (errorCode) {
+//     case '0':
+//     console.log("Geen watertoevoer");
+//         break;
+//
+//     case '1':
+//         console.log("Temperatuur te laag");
+//         break;
+//
+//     case '2':
+//         console.log("Koffiebonen op")
+//         break;
+//
+//     case '3':
+//         console.log("Afvalbak vol");
+//         break;
+//
+//     case '4':
+//         console.log("Geen druk");
+//         break;
+// }
 
 // Opdracht 2: schrijf een switch statement die op basis van de volgende variabele een bijbehorende foutmelding in de console logt.
 // Deze variabele zal altijd een kleur bevatten. De specifieke kleuren waar een melding bij gemaakt moet worden zijn: "red", "green", "yellow" en "orange".
@@ -50,27 +50,44 @@ switch (errorCode) {
 // const monitorColor = "green" geeft "Hartslag stabiel" in de terminal
 // etc.
 
-const monitorColor = "green";
+// const monitorColor = "green";
+//
+// switch (monitorColor){
+//     case "red":
+//         console.log("Kritieke hartslag, actie vereist!");
+//         break;
+//     case "green":
+//         console.log("Hartslag stabiel");
+//         break;
+//     case "yellow":
+//         console.log("Hartslag verhoogd");
+//         break;
+//     case "orange":
+//         console.log("Kritieke hartslag, actie vereist!");
+//         break;
+//
+//     default:
+//         console.log("Status hartslag onbekend");
+// }
 
-switch (monitorColor){
-    case "red":
-        console.log("Kritieke hartslag, actie vereist!");
-        break;
-    case "green":
-        console.log("Hartslag stabiel");
-        break;
-    case "yellow":
-        console.log("Hartslag verhoogd");
-        break;
-    case "orange":
-        console.log("Kritieke hartslag, actie vereist!");
-        break;
-
-    default:
-        console.log("Status hartslag onbekend");
-}
-
-
-// ==========================================
 // [BONUSOPDRACHT] - optioneel: kun je de switch-statement uit opdracht 2 ook opschrijven met een aantal if-statements?
-// ==========================================
+
+if (monitorColor = "red") {
+    console.log("Kritieke hartslag, actie vereist");
+}
+if (monitorColor = "yellow") {
+    console.log("Kritieke hartslag, actie ondernemen");
+
+    if (monitorColor = "orange") {
+        console.log("Kritiek, actie vereist!");
+    }
+    if (monitorColor = "green") {
+        console.log("Hartslag stabiel");
+
+    } else {
+        console.log("Hartsalg status onbekend");
+
+    }
+}
+// uitwerkingen kijken op 16 juni 2021
+
