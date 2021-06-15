@@ -15,7 +15,12 @@ const errorCode = 0;
 // const errorCode = 0 geeft "Geen watertoevoer" in de terminal
 // const errorCode = 4 geeft "Geen druk" in de terminal
 // etc.
+if (Water >= 0) {
+    console.log("Geen watervoer");
 
+
+
+}
 
 // ==========================================
 // Opdracht 2: schrijf een switch statement die op basis van de volgende variabele een bijbehorende foutmelding in de console logt.
