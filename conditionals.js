@@ -32,13 +32,16 @@ console.log("Cum laude!")
 // 5c. Log "Doe een jas aan!" Als het regent OF kouder is dan 12 graden
 // Tip: verander de waarde van isRaining en temperature even handmatig om te kijken of jouw 2e conditie klopt
 // ==========================================
+const temperature = 25;
+const isRaining = false;
+if ((temperature >= 21) && (isRaining === false)) {
+    console.log("Je kunt een korte broek aan!");
 
-// if ((temperature >= 21) && (isRaining = false)) {
-//     console.log("Je kunt een korte broek aan!");
-//
-// } else {
-//
-// 16 juni nog een keer proberen}
+} else {
+    console.log("Doe een jas aan!");
+
+
+}
 
 
 
