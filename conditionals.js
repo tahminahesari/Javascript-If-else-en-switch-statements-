@@ -38,7 +38,7 @@ if ((temperature >= 21) && (isRaining === false)) {
     console.log("Je kunt een korte broek aan!");
 
 } else {
-    console.log("Doe een jas aan!");
+    console.log("Je mag je jas aandoen!");
 
 
 }
